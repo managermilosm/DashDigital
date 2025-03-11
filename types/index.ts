@@ -5,3 +5,8 @@ export interface NavBarLinkProp {
     linkstyles?: string;
     linktype?: "Home" | "Projects" | 'Services' | "Blog" | "About" | 'Contact';
 }
+
+export interface LogoLinkProp {
+    linkaddress: string;
+    linkstyles?: string;
+}
