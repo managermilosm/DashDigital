@@ -1,8 +1,7 @@
-import NavBar from "./NavBar"
+import NavBar from "./NavBar";
+import LogoLink from "./LogoLink";
+import NavBarLink from "./NavBarLink";
 
-export {
-    NavBar,
-}
-
+export { NavBar, LogoLink, NavBarLink };
 
 // this is a default import path for all components to be grouped!!!
