@@ -1,5 +1,4 @@
-import React from "react";
-import NavBarLink from "./NavBarLink";
+import { NavBarLink, AnimatedButton } from "@/components";
 
 const NavBar = () => {
   return (
@@ -12,6 +11,7 @@ const NavBar = () => {
         <NavBarLink title="About" />
         <NavBarLink title="Contact" />
       </div>
+      <AnimatedButton title="UX/UI" color="magenta" />
     </>
   );
 };

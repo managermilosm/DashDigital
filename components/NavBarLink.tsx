@@ -1,3 +1,5 @@
+"use client";
+
 import { title } from "process";
 import React from "react";
 import { NavBarLinkProp } from "@/types";
