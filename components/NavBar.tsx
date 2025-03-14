@@ -11,7 +11,9 @@ const NavBar = () => {
         <NavBarLink title="About" />
         <NavBarLink title="Contact" />
       </div>
-      <AnimatedButton title="UX/UI" color="magenta" />
+      <AnimatedButton title="UX/UI" color="purple" />
+      <AnimatedButton title="Development" color="blue" />
+      <AnimatedButton title="Branding" color="orange" />
     </>
   );
 };

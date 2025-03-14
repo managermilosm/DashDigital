@@ -12,6 +12,7 @@ export interface LogoLinkProp {
 }
 
 export interface AnimatedButtonProps {
+  colorMap?: string;
   title: string;
-  color: string;
+  color: "blue" | "orange" | "purple";
 }
