@@ -16,3 +16,7 @@ export interface AnimatedButtonProps {
   title: string;
   color: "blue" | "orange" | "purple";
 }
+
+export interface AnimatedLAProps {
+  title: string;
+}
