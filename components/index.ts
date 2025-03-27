@@ -3,7 +3,7 @@ import LogoLink from "./LogoLink";
 import NavBarLink from "./NavBarLink";
 import AnimatedButton from "./AnimatedButton";
 import AnimatedLink from "./AnimatedLink";
-import AnimatedLinkArrow from "./AnimatedLinkArrow";
+import { AnimatedArrowLarge, ButtonWithArrow } from "./Arrows";
 import CustomButtonAn from "./CustomButtonAn";
 
 export {
@@ -12,8 +12,9 @@ export {
   NavBarLink,
   AnimatedButton,
   AnimatedLink,
-  AnimatedLinkArrow,
+  AnimatedArrowLarge,
   CustomButtonAn,
+  ButtonWithArrow,
 };
 
 // this is a default import path for all components to be grouped!!!

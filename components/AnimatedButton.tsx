@@ -18,13 +18,13 @@ const colorMap = {
 };
 
 const AnimatedButton = ({ title, color }: AnimatedButtonProps) => {
-  const selectedColor = colorMap[color] || colorMap.blue; // Default to blue if no valid color is provided
+  const selectedColor = colorMap[color] || colorMap.blue;
   return (
     <button
-      className={`-skew-x-6 text-white ${selectedColor.hover} relative h-[24px] w-auto overflow-hidden bg-transparent px-3  transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-[4px] ${selectedColor.border} before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full`}
+      className={`relative z-100 -skew-x-6 text-white overflow-hidden bg-transparent px-3 h-[24px] w-auto transition-all  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0  before:h-full before:w-[4px] before:transition-all  before:duration-500 before:ease-in-out hover:before:w-full  hover:text-white hover:before:left-0 ${selectedColor.hover} ${selectedColor.border}`}
     >
-      <span className="relative z-10 transform-none">
-        <p className="text-[16px] skew-x-6">{title}</p>
+      <span className="relative z-10">
+        <p className="text-[16px] z-1 skew-x-6">{title}</p>
       </span>
     </button>
   );

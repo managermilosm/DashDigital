@@ -2,8 +2,8 @@ import {
   NavBarLink,
   AnimatedButton,
   AnimatedLink,
-  AnimatedLinkArrow,
   CustomButtonAn,
+  ButtonWithArrow,
 } from "@/components";
 
 const NavBar = () => {
@@ -20,9 +20,11 @@ const NavBar = () => {
       <AnimatedButton title="UX/UI" color="purple" />
       <AnimatedButton title="Development" color="blue" />
       <AnimatedButton title="Branding" color="orange" />
+      <AnimatedButton title="SMD" color="blue" />
       <AnimatedLink />
-      <AnimatedLinkArrow title="Find Out More"></AnimatedLinkArrow>
+
       <CustomButtonAn></CustomButtonAn>
+      <ButtonWithArrow />
     </>
   );
 };

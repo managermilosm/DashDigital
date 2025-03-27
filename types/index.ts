@@ -20,3 +20,8 @@ export interface AnimatedButtonProps {
 export interface AnimatedLAProps {
   title: string;
 }
+
+export interface ArrowProps {
+  strokeWidth?: number;
+  className?: string;
+}
